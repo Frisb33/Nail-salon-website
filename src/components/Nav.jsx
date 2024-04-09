@@ -2,17 +2,23 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav>
-      <div className="flex justify-between z-50 text-black lg:py-5 px-4 lg:px-20 py-4">
-        <div className="flex items-center flex-1">
-          <span className="text-3xl font-bold ml-4 lg:ml-16">LOGO</span>
+    <nav className ="bg-custom shadow-lg fixed top-0 left-0 right-0 z-50">
+      <div className="flex justify-between text-black lg:py-5 px-4 lg:px-20">
+        {/* Logo positioned at the leftmost side */}
+        <div>
+          <span className="text-3xl font-bold">LOGO</span>
         </div>
-        <div className="flex items-center lg:flex-1 justify-end font-normal">
-          <ul className="flex gap-4 lg:gap-8 mr-4 lg:mr-16 text-sm lg:text-base">
+        {/* Centering the <ul> element using Flexbox */}
+        <div className="flex items-center flex-1 justify-center">
+          <ul className="flex gap-8">
             <li>About</li>
             <li>Products</li>
             <li>Address</li>
           </ul>
+        </div>
+        {/* Placeholder to maintain spacing at the rightmost side */}
+        <div>
+        <span className="text-3xl font-bold text-transparent">LOGO</span>
         </div>
       </div>
     </nav>

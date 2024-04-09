@@ -1,17 +1,17 @@
 import Nav from "./components/Nav";
 import React from "react";
-import bannerImage from './assets/nail salon banner demo.jpg';
-
-
+import "./App.css"; 
+import Banner from "./components/Banner"
 
 function App() {
-
   return (
-    <div className = " bg-peach-900">
-      <Nav/>
-      <img src = "[bannerImage]" alt = "banner"></img>
+    <div className="fill-pink-500 flex flex-col items-center flex flex-col items-center">
+      <Nav />
+      <div class = "banner" >
+        <Banner />
+      </div>
     </div>
-  )
+  );
 }
 
 export default App;
