@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 // tailwind.config.js
-
+import { fontFamily } from "tailwindcss/defaultTheme";
 module.exports = {
   content: [
     "./index.html",
@@ -9,7 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        custom: 'rgba(236, 194, 190, 1)', // Define your RGBA color
+        n: {
+          1: "#FFFFFF",
+          2: "#000000",
+          3: "#FCC9C9",
+          4: "#252134",
+          5: "#AC6AFF",
+        },
+      },
+      fontFamily: {
+        code: "var(--font-code)",
       },
     },
   },

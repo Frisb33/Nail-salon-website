@@ -2,16 +2,18 @@ import Nav from "./components/Nav";
 import React from "react";
 import "./App.css"; 
 import Banner from "./components/Banner"
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
-    <div className="fill-pink-500 flex flex-col items-center flex flex-col items-center">
-      <Nav />
-      <div class = "banner" >
+    <>
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Header />
         <Banner />
+
       </div>
-    </div>
+    </>
   );
-}
+};
 
 export default App;

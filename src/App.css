@@ -1,9 +1,9 @@
-body{
+body {
   background-color: #f6dde0;
-  height: relative;
+
 }
 
-.banner{
+.banner {
   position: relative;
   margin-top: 10%;
   max-width: 80%;
