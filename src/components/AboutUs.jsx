@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div id="aboutus" className="text-center max-w-3xl mx-auto px-4 mt-10 mb-10"> 
           <h2 className="text-2xl font-bold mb-4 font-code">About Us</h2>
-          <p className="italic text-sm md:text-base leading-relaxed font-sora">
+          <p className="italic text-sm md:text-base leading-relaxed font-comic">
             ''Welcome to [Nail Salon Name], your destination for nail care and beauty!
             <br />
             <br />

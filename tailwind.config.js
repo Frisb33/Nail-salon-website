@@ -22,6 +22,8 @@ module.exports = {
       },
       fontFamily: {
         code: "var(--font-code)",
+        sora: "var(--font-sora)",
+        comic: "var(--font-comic)",
       },
     },
   },
