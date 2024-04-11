@@ -4,11 +4,21 @@ import pic from "../assets/7789704.jpg"
 
 function Banner() {
   return (
-    <img
-        className="object-center"
-        src = {pic}
-        alt="nature image"
-      />
+      <div className="relative justify-center items-center " >
+        <div className="relative  mx-auto md:max-w-6xl">
+          <div className="relative z-1 p-0.5 rounded-2xl bg-n-3">
+
+              <div className=" rounded-t-[0.9rem] rounded-b-[0.9rem] overflow-hidden ">
+                <img
+                  src={pic}
+                  alt="Banner Image"
+                />
+              </div>
+          </div> 
+        </div>
+       
+      </div>
+      
   );
 }
 
