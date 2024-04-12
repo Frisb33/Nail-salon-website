@@ -1,0 +1,30 @@
+#carousel{height: 100%;}
+html,
+body {
+  position: relative;
+  height: 60%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 69%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
