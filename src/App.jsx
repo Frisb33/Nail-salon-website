@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
+import Service from "./components/Service";
 
 const App = () => {
   
@@ -14,6 +15,7 @@ const App = () => {
         <Header />
         <Banner />
         <AboutUs />
+        <Service />
         <Contact />
         <Footer/>
        
