@@ -5,7 +5,7 @@ export const navigation = [
     {
       id: "0",
       title: "Home",
-      url: "#home",
+      url: "#top",
     },
     {
       id: "1",
@@ -29,24 +29,34 @@ export const navigation = [
     },
   ];
 
-  export const socialMedia = [
-    {
-      id: "0",
-      title: "Instagram",
-      iconUrl: SlSocialInstagram,
-      url: "https://www.instagram.com/wasaga_nails_33rd?igsh=OHpyMHdqNHR2ZXZy",
-    },
-    {
-      id: "1",
-      title: "Facebook",
-      iconUrl: SlSocialFacebook,
-      url: "https://www.facebook.com/profile.php?id=100075975665215&mibextid=LQQJ4d",
-    },
-    {
-      id: "2",
-      title: "Google",
-      iconUrl: SlSocialGoogle,
-      url: "https://g.co/kgs/gbu7rS4",
-    },
-  ];
-  
+export const socialMedia = [
+  {
+    id: "0",
+    title: "Instagram",
+    iconUrl: SlSocialInstagram,
+    url: "https://www.instagram.com/wasaga_nails_33rd?igsh=OHpyMHdqNHR2ZXZy",
+  },
+  {
+    id: "1",
+    title: "Facebook",
+    iconUrl: SlSocialFacebook,
+    url: "https://www.facebook.com/profile.php?id=100075975665215&mibextid=LQQJ4d",
+  },
+  {
+    id: "2",
+    title: "Google",
+    iconUrl: SlSocialGoogle,
+    url: "https://g.co/kgs/gbu7rS4",
+  },
+];
+function generateImageList(n) {
+  let imageList = [];
+  for (let i = 1; i <= n; i++) {
+      imageList.push({
+          id: i,
+          url: `/gallery/${i}.jpg`
+      });
+  }
+  return imageList;
+}
+export const images = generateImageList(15)

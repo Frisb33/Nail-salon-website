@@ -4,7 +4,7 @@ import { socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-n-6 py-4  text-sm">
+    <footer id="contact" className="bg-n-6 py-4 text-sm flex justify-center">
       <div className="container flex sm:justify-between pr-5 justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block px-10">
           © {new Date().getFullYear()}. All rights reserved.
