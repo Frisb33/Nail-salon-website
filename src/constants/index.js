@@ -59,4 +59,4 @@ function generateImageList(n) {
   }
   return imageList;
 }
-export const images = generateImageList(15)
+export const images = generateImageList(22)
