@@ -1,4 +1,5 @@
 import React from 'react';
+import MyMapComponent from "./Map";
 
 const Contact = () => {
   return (
@@ -25,9 +26,7 @@ const Contact = () => {
         <div className='my-4'>
           <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
             
-            <button className='bg-n-3 text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
-              Map
-            </button>
+          <MyMapComponent />
           </div>
         </div>
       </div>
