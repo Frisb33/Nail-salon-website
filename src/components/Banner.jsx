@@ -1,6 +1,6 @@
 // Banner.jsx
 import React from "react";
-import pic from "/banner.png"
+import pic from "/banner1.png"
 
 function Banner() {
   return (

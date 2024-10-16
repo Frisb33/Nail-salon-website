@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "/service.png"
+import pic from "/service1.png"
 
 const Service = () => {
   return (

@@ -2,7 +2,7 @@ import { navigation } from "../constants";
 import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import MenuSvg from "../components/MenuSvg";
-import logo from "/logo.png"
+import logo from "/logo1.png"
 const scrollToMiddle = (event, elementId) => {
   event.preventDefault();
   const element = document.getElementById(elementId);
