@@ -3,7 +3,7 @@ import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 
 const MyMapComponent = () => {
-  const apiKey = 'AIzaSyCAceieS0rVSBejwA8-4-22D9nBeFVhrnE';
+  const apiKey = '';
   console.log(apiKey);
   const mapStyles = {
     width: '100%',
