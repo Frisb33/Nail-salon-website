@@ -1,10 +1,10 @@
 // Banner.jsx
 import React from "react";
-import pic from "../assets/7789704.jpg"
+import pic from "/banner1.png"
 
 function Banner() {
   return (
-      <div className="relative justify-center items-center " >
+      <div id="top" className="relative justify-center items-center " >
         <div className="relative  mx-auto md:max-w-6xl">
           <div className="relative z-1 p-0.5 rounded-2xl bg-n-3">
 

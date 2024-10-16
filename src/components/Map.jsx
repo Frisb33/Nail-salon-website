@@ -1,10 +1,10 @@
 import React from 'react';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
+
 const MyMapComponent = () => {
-  console.log('asdasdas');
-  const apiKey = process.env.REACT_APP_API_KEY;
-  //console.log(process.env);
+  const apiKey = 'AIzaSyCAceieS0rVSBejwA8-4-22D9nBeFVhrnE';
+  console.log(apiKey);
   const mapStyles = {
     width: '100%',
     height: '300px',

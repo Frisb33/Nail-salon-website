@@ -14,12 +14,12 @@ const Contact = () => {
             Opening Hours
           </h2>
           <ul className='space-y-2 md:pr-[50%]'>
-            <li className='flex justify-between'><span>Monday</span><span>9a.m - 7p.m</span></li>
-            <li className='flex justify-between'><span>Tuesday</span><span>9a.m - 7p.m</span></li>
-            <li className='flex justify-between'><span>Wednesday</span><span>9a.m - 7p.m</span></li>
-            <li className='flex justify-between'><span>Thursday</span><span>9a.m - 7p.m</span></li>
-            <li className='flex justify-between'><span>Friday</span><span>9a.m - 7p.m</span></li>
-            <li className='flex justify-between'><span>Saturday</span><span>9a.m - 7p.m</span></li>
+            <li className='flex justify-between'><span>Monday</span><span>9:30a.m - 7p.m</span></li>
+            <li className='flex justify-between'><span>Tuesday</span><span>9:30a.m - 7p.m</span></li>
+            <li className='flex justify-between'><span>Wednesday</span><span>9:30a.m - 7p.m</span></li>
+            <li className='flex justify-between'><span>Thursday</span><span>9:30a.m - 7p.m</span></li>
+            <li className='flex justify-between'><span>Friday</span><span>9:30a.m - 7p.m</span></li>
+            <li className='flex justify-between'><span>Saturday</span><span>9:30a.m - 7p.m</span></li>
             <li className='flex justify-between'><span>Sunday</span><span>Close</span></li>
           </ul>
         </div>
